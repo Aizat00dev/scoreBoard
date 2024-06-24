@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: #312469;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    color: rgb(238, 238, 238);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+}
+.score{
+    color: rgb(249, 79, 109);
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+
+    border: 3px solid black;
+    background: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.btn{
+    color: rgb(154, 171, 216);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    background: #312469;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(154, 171, 216);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.reset{
+    margin-top:20px;
+}
